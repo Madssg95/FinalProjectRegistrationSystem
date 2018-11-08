@@ -5,6 +5,7 @@
     <e p="C:\Users\madsg\.Rider2018.2\system\extResources" t="IncludeRecursive" />
     <e p="C:\Users\madsg\.Rider2018.2\system\resharper-host\local\Transient\ReSharperHost\v182\SolutionCaches\_FinalProjectRegistrationSystem.964040133.00" t="ExcludeRecursive" />
     <e p="C:\Users\madsg\source\repos\FinalProjectRegistrationSystem" t="IncludeFlat">
+      <e p="Core" t="Include" />
       <e p="FinalProjectRegistrationSystem" t="IncludeRecursive">
         <e p="appsettings.Development.json" t="Include" />
         <e p="appsettings.json" t="Include" />
@@ -28,7 +29,54 @@
         <e p="wwwroot" t="Include" />
       </e>
       <e p="FinalProjectRegistrationSystem.sln" t="IncludeFlat" />
+      <e p="fprs.Core" t="IncludeRecursive">
+        <e p="ApplicationService" t="Include">
+          <e p="Impl" t="Include">
+            <e p="CompanyService.cs" t="Include" />
+          </e>
+          <e p="Service" t="Include" />
+        </e>
+        <e p="Bin" t="ExcludeRecursive" />
+        <e p="DomainService" t="Include">
+          <e p="ICompanyService.cs" t="Include" />
+        </e>
+        <e p="fprs.Core.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netstandard2.0" t="Include">
+              <e p="fprs.Core.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="fprs.Core.Entity" t="IncludeRecursive">
+        <e p="Bin" t="ExcludeRecursive" />
+        <e p="Company.cs" t="Include" />
+        <e p="fprs.Core.Entity.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netstandard2.0" t="Include">
+              <e p="fprs.Core.Entity.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="fprs.Infrastrcuture.Data" t="IncludeRecursive">
+        <e p="Bin" t="ExcludeRecursive" />
+        <e p="Class1.cs" t="Include" />
+        <e p="fprs.Infrastrcuture.Data.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.1" t="Include">
+              <e p="fprs.Infrastrcuture.Data.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Repositories" t="Include" />
+      </e>
+      <e p="Infrastructure" t="Include" />
       <e p="packages" t="ExcludeRecursive" />
+      <e p="UI" t="Include" />
     </e>
   </component>
 </project>
